@@ -7,10 +7,11 @@ import { LayoutModule } from '@app/ui/theme/layout';
 import { AppComponent } from './app.component';
 import { AppLocaleModule } from './app-locale.module';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppLocaleModule, LayoutModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppLocaleModule, LayoutModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

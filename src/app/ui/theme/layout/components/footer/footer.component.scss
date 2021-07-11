@@ -1,0 +1,32 @@
+@use '~@angular/material' as mat;
+@import 'src/stylesheets/utils';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: mat.get-color-from-palette(mat.$gray-palette, 300);
+  text-align: center;
+  align-items: center;
+
+  @include media-breakpoint-up(sm) {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.footer-copyright {
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 0;
+  }
+}
+
+.footer-links {
+  margin-left: auto;
+}
+
+.footer-link {
+  margin: 0 0.15rem;
+}
