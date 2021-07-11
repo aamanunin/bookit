@@ -21,6 +21,7 @@
     "paths": {
       "@app/ui/theme/layout": ["src/app/ui/theme/layout/index.ts"],
       "@app/ui/icons": ["src/app/ui/icons/index.ts"],
+      "@app/building/common": ["src/app/building/common"],
       "@app/core/common": ["src/app/core/common"],
       "@app/persons/common": ["src/app/persons/common"]
     }
