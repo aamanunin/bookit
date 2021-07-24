@@ -23,6 +23,9 @@
       "@app/ui/icons": ["src/app/ui/icons/index.ts"],
       "@app/building/common": ["src/app/building/common"],
       "@app/core/common": ["src/app/core/common"],
+      "@app/core/logger": ["src/app/core/logger/index.ts"],
+      "@app/core/store/root": ["src/app/core/store/root/index.ts"],
+      "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
       "@app/persons/common": ["src/app/persons/common"],
       "@app/room/common": ["src/app/room/common"]
     }
