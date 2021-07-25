@@ -5,4 +5,4 @@ import { RoomStorageService } from './room-storage.service';
 @NgModule({
   providers: [RoomStorageService],
 })
-export class StorageModule {}
+export class RoomStorageModule {}

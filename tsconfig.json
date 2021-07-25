@@ -27,7 +27,8 @@
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
       "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
       "@app/persons/common": ["src/app/persons/common"],
-      "@app/room/common": ["src/app/room/common"]
+      "@app/room/common": ["src/app/room/common"],
+      "@app/room/storage":["src/app/room/storage"]
     }
   },
   "angularCompilerOptions": {
